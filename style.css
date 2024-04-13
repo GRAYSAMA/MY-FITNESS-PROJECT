@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://c.wallhere.com/photos/01/85/gyms_working_out_dumbbells_women_fitness_model-1537083.jpg!d");
+  }
+  h1, h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+
+}
+  
+  header {
+    background-color: #f4f4f4;
+    padding: 0px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dabfe0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+  nav li{
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: #b180b3;
+  }
+  .active {
+    background-color: #111 ;
+  }
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  #contact {
+    font-size: 30px;
+    text-align: left;
+  }
+  h4{
+    font-size: 30px;
+    text-align: left;
+  }
+  footer p {
+    margin: 2px 0;
+  }
+  @media only screen and (min-width: 500px) {
+    body {
+      min-height: 100vh;
+    }
+  }
+  
